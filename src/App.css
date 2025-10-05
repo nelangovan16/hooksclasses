@@ -8,50 +8,34 @@
 
 .main-heading {
   font-size: 3rem;
-  margin-bottom: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
   color: #333;
 }
 
-.emoji-section button,
-.bg-button {
+.sub-heading {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  color: #666;
+}
+
+.emoji-section button {
   font-size: 2rem;
   margin: 0.5rem;
-  padding: 0.5rem 1rem;
+  padding: 0.8rem 1.2rem;
   cursor: pointer;
   border: none;
   border-radius: 8px;
   transition: transform 0.1s, background 0.2s;
 }
 
-.emoji-section button:hover,
-.bg-button:hover {
+.emoji-section button:hover {
   transform: scale(1.2);
   background: #e0e0ff;
-}
-
-.bg-button {
-  font-size: 1rem;
-  padding: 0.5rem 1rem;
-  margin-top: 1rem;
 }
 
 .message {
   font-size: 1.5rem;
   font-weight: bold;
   margin: 1rem 0;
-}
-
-.search input[type="text"] {
-  padding: 0.5rem;
-  width: 200px;
-  margin-right: 1rem;
-}
-
-.search label {
-  font-size: 0.9rem;
-}
-
-.list p {
-  margin: 0.3rem 0;
-  font-size: 1.2rem;
 }
